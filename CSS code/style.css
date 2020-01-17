@@ -1,0 +1,293 @@
+/* Main Body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #ccf2ff;
+}
+
+
+/* GLOBAL ITEMS */ 
+
+/* Margin Items */
+.contain{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* All Lists */
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.highlight {
+    color: #45a29e;
+    font-weight: bold;
+}
+
+.highlight2 {
+    color: #008080;
+    font-weight: bold;
+}
+
+
+.dark{
+    padding: 15px;
+    /*background: #1F2833;
+    color: #ffffff;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: #1F2833 3px solid;
+} 
+
+/* SPECIFIC ITEMS */
+
+/* Header List */
+header ul{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header{
+    background: #1F2833;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #66fcf1 3px solid; 
+}
+
+/* Header Links */
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Header List Items */
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px; 
+}
+
+/* Main Title */
+header #my_brand{
+    float: left;
+}
+
+/* Main Title Text */
+header #my_brand h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+/*header #my_brand img{
+    width: 60px;
+}*/
+
+/* Header List Entirity */ 
+header nav{
+    float: right;    
+    margin-top:  10px;
+}
+
+/* Add colour to active menu item */
+header .active a{
+    color: #45a29e;
+    font-weight: bold;
+}
+
+/* Change colour when hovering over an item */
+header a:hover{
+    color: #c5c6c7;
+    font-weight: bold;
+}
+
+/* Background Image Properties */
+#main_image{
+    min-height: 400px;
+    background: url('../Images/stars.jpg') no-repeat 0 0px;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Text on Background Image */
+#main_image h1{
+    margin-top: 120px;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+/* Smaller Text on Background Image */
+#main_image p{
+    font-size: 20px;
+}
+
+
+/* About Me */
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #1F2833;
+}
+
+#newsletter h1{
+    text-align: center;
+}
+
+/* Images */
+#boxes3{
+    margin-top: 20px;
+}
+
+/* Image Location */
+#boxes3 .box{
+    float: left;
+    width: 29%;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Image Size */
+#boxes3 .box img{
+    width: 150px;
+}
+
+
+/* Contact List */
+aside#contacts{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+section#main{
+    padding-bottom: 15px;
+    border-bottom: #1F2833 5px solid;
+    background: #c5c6c7;
+}
+
+section#skills{
+    float: left;
+    width: 65%;
+}
+
+section#skills h1{
+    font-size: 25px;
+}
+
+section#skills p{
+    font-size: 18px;
+}
+
+/* Project Images */
+#project{
+    margin-top: 20px;
+}
+
+/* Project Image Location */
+#project .box{
+    float: left;
+    width: 45%;
+    height: 370px;
+    text-align: center;
+    padding: 10px;
+    border: #66fcf1 3px solid;
+    margin: 10px;
+    background: #1F2833;
+    color: #ffffff;
+}
+
+#project .box1{
+    float: left;
+    width: 45%;
+    height: 335px;
+    text-align: center;
+    padding: 10px;
+    border: #66fcf1 3px solid;
+    margin: 10px;
+    background: #1F2833;
+    color: #ffffff;
+    padding-top: 45px;
+}
+
+#project .box2{
+    float: left;
+    width: 45%;
+    height: 310px;
+    text-align: center;
+    padding: 10px;
+    border: #66fcf1 3px solid;
+    margin: 10px;
+    background: #1F2833;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+#project .box3{
+    float: left;
+    width: 45%;
+    height: 355px;
+    text-align: center;
+    padding: 10px;
+    border: #66fcf1 3px solid;
+    margin: 10px;
+    background: #1F2833;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+/* Project Image Size */
+#project .box img{
+    width: 350px;
+    border: #000000 3px solid;
+}
+
+#project .box1 img{
+    width: 350px;
+    border: #000000 3px solid;
+}
+
+#project .box2 img{
+    width: 350px;
+    border: #000000 3px solid;
+}
+
+#project .box3 img{
+    width: 350px;
+    border: #000000 3px solid;
+}
+
+/* Bottom Footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #1F2833;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    header #my_brand, header nav, header li, 
+    #boxes3 .box{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    #main_image h1{
+        margin-top: 40px;
+    }
+}
