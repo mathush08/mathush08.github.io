@@ -280,12 +280,39 @@ footer .active a{
 }
 
 @media (max-width: 800px){
-    header #my_brand, header nav, header li, 
-    #boxes3 .box, #project,
-    #project .box, #project .box1, #project .box2, #project .box3{
+    header #my_brand, header nav, header li{
         float: none;
         text-align: center;
-        width: 95%;
+        width: 100%;
+    } 
+
+    #boxes3 .box{
+        float: none;
+        text-align: center;
+        width: 90%;
+    }
+
+    #project, #project .box, #project .box1, #project .box2, #project .box3{
+        float: none;
+        text-align: center;
+        width: 94%;
+        margin-left: 5px;
+    }
+
+    #project .box img, #project .box1 img, #project .box2 img, #project .box3 img{
+        width: 300px;
+        border: #000000 3px solid;
+    }
+
+    aside#contacts{
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    section#skills{
+        float: none;
+        width: 100%;
     }
 
     header {
